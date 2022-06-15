@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    padding: 6em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 60%;
+    width: 25%;
+    padding-left: 50px;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 6em;
+    height: 60%;
+    width: 25%;
+    padding-left: 50px;
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    padding: 6em;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60%;
+    width: 25%;
+    padding-left: 50px;
+}
+.logo{
+    padding-bottom: 35px;
+}
+ h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    color:hsl(0, 0%, 95%) ;
+    margin-bottom: 30px;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 50px;
+}
+button{
+    padding: 15px;
+    width: 70%;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 40px;
+    border: none;
+    color: hsl(0, 0%, 95%);
+    margin-top: 60px;
+}
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+.b2{
+    color: hsl(184, 100%, 22%);
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+.b1:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.b2:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.b3:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .first, .second, .third{
+        border-radius: 0;
+        margin: 5px;
+    }
+   }
